@@ -1,0 +1,229 @@
+body {
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+.section {
+	background: black;
+	display: block;
+	position: fixed;
+	left: 270px;
+	padding: 0 30px;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	opacity: 1;
+
+}
+
+.container {
+	max-width: 1100px;
+	width: 100%;
+	padding: 150px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	position: relative;
+}
+
+.side {
+	width: 270px;
+	background: brown;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+
+.image {
+	top: 50px;
+	position: absolute;
+}
+
+img {
+	border-radius: 50%;
+	border: 15px solid pink;
+}
+
+.side .nav {
+	margin-top: 50px;
+}
+
+.side .nav li {
+	margin-bottom: 20px;
+	display: block;
+}
+
+.side .nav li a {
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	color: pink;
+	opacity: 1;
+}
+
+.side .nav li a:hover {
+	color: white;
+}
+
+.icon {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.icon-item {
+	font-size: 24px;
+	text-align: center;
+	width: 80px;
+}
+
+.icon .icon-item i {
+	color: grey;
+}
+
+.icon .icon-item i:hover {
+	color: brown;
+}
+
+.main-content {
+	margin-left: 270px;
+}
+
+.about {
+	min-height: 100vh;
+	display: flex;
+}
+
+.about .about-info {
+	max-width: 90%;
+}
+
+.about-info span {
+	color: brown;
+}
+
+h3.name {
+	font-size: 50px;
+}
+
+.subheading {
+	color: grey;
+	opacity: 1;
+}
+
+.subheading a {
+	color: brown;
+}
+
+.about-info p {
+	color: grey;
+    margin-top: 50px; 
+}
+
+.experience-info {
+	max-width: 90%;
+}
+
+h4 {
+	color: grey;
+}
+
+.exp-1 {
+	padding: 20px 0;
+}
+
+.exp-1 p {
+	padding: 10px 0;
+}
+
+.exp-2 {
+	padding: 20px 0;
+}
+
+.exp-2 p {
+	padding: 10px 0;
+}
+
+.exp-3 {
+	padding: 20px 0;
+}
+
+.exp-3 p {
+	padding: 10px 0;
+}
+
+.exp-4 {
+	padding: 20px 0;
+}
+
+.exp-4 p {
+	padding: 10px 0;
+}
+
+.year {
+	display: flex;
+	float: right;
+	color: brown;
+}
+
+.Ed-1 {
+	padding: 20px 0;
+}
+
+.Ed-1 p {
+	padding: 10px 0;
+}
+
+.Ed-2 {
+	padding: 20px 0;
+}
+
+.Ed-2 p {
+	padding: 10px 0;
+}
+
+#Skills h3 {
+	padding: 20px;
+}
+
+
+.interest-info h1 {
+	padding: 20px;
+}
+
+.interest-info p {
+	padding: 20px;
+}
+
+
+.interest-info p {
+	padding: 20px;
+}
+
+.awards-info h1{
+	padding: 20px;
+}
